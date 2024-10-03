@@ -85,6 +85,5 @@ def construct_path(node):
     return path[::-1]  # Return the path in reverse order
 
 
-# Execute A* from 'S' to 'F'
 path = AStar('S', 'F')
 print("Path:", path)
